@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Nimra Nasir</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>A showcase of my skills, projects, and achievements</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="profile.png" alt="Nimra Nasir" width="100" height="100">
+            <p>Hi, I'm Nimra Nasir, a recent graduate in Computer Engineering from UET Taxila. With a strong foundation
+                 in computer engineering principles, I've specialized in web development. My skills primarily revolve around 
+                 Java, HTML, and CSS, which I've honed through coursework, projects, and personal exploration.
+
+                During my time at UET Taxila, I delved deep into various aspects of computer engineering,
+                 from fundamental programming concepts to advanced topics in web development. </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+
+    <section id="projects" style="text-align: center;">
+        <h2>Projects</h2>
+        
+        <h1 class="h-primary center"></h1>
+        <div id="projects">
+            <div class="box">
+            <img src="Food Delivery.jpg" alt="food Image" style="width: 200px; height: 150px;">
+
+                <h2 class="h-secondary center">Food Delivery</h2>
+                <p class="center">A food delivery website requires a seamless ordering process and an intuitive 
+                    interface to browse menus, select items, and make payments. HTML provides the structure 
+                    for the website, defining the layout of pages and content. CSS enhances the visual appeal 
+                    by styling elements, such as fonts, colors, and layouts, to reflect the brand.</p>
+            </div>
+            <div class="box">
+                <img src="gym.jpg" alt="Gym Image" style="width: 200px; height: 150px;">
+                <h2 class="h-secondary center">Gym Website:</h2>
+                <p class="center">For a gym website, the focus is on providing information about facilities, classes, 
+                    schedules, and membership options. HTML structures the website, organizing information into pages such 
+                    as home, about, classes, trainers, and contact. CSS stylizes the layout, incorporating visuals like images, v
+                    ideos, and graphics to showcase the gym's amenities and atmosphere. </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="resume" style="text-align: center;">
+        <h2>Resume</h2>
+        <p>Download my resume in PDF format:</p>
+        <a href="Nimra_Bsc Computer Engineering .pdf" download >Download Resume</a>
+    </section>    
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nimra Nasir</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
